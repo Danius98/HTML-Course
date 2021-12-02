@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3: Form</title>
+    <style>
+        body{
+            background-color: #f2f6ff;
+            margin: 0;
+            padding: 16px;
+        }
+        .social-icon{
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+
+        form{
+            background-color: #f2f6ff;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        #form-heading{
+            font-size: 32px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+        }
+
+        #social-wrapper{
+            background-color: white;
+            padding: 24px;
+        }
+
+        #input-wraper{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        .input-box{
+            background: #f2f6ff;
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+
+        #btn-submit{
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: white;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+    <h1 id="form-heading">Register</h1>
+    <div id="social-wrapper">
+        <img class="social-icon" src="https://tse1.mm.bing.net/th?id=OIP.hGaetDAQWapgIJbIOhPhXwHaHa&pid=Api&P=0&w=300&h=300" alt="facebook"/>
+        <img class="social-icon" src="https://tse1.mm.bing.net/th?id=OIP.LhyzL9goHcKNl_037wbh7wHaHa&pid=Api&P=0&w=300&h=300" alt="google"/>
+        <img class="social-icon" src="https://tse3.mm.bing.net/th?id=OIP.ckeUFk-yid0vfWnd56w7wAHaHa&pid=Api&P=0&w=300&h=300" alt="github"/>
+        <img class="social-icon" src="https://tse2.mm.bing.net/th?id=OIP.JO66WVyWAYmUUn31NlbleQHaHa&pid=Api&P=0&w=300&h=300" alt="linkedin"/>
+    </div>
+    <div id="input-wrapper">
+        <div>
+            <input class="input-box" type="text" name="username" placeholder="Username">
+        </div>
+        <div>
+            <input class="input-box" type="text" name="email" placeholder="Email">
+        </div>
+        <div>
+            <input class="input-box" type="password" name="password" placeholder="Password">
+        </div>
+        <div>
+            <input class="input-box" type="password" name="confirm-password" placeholder="Confirm Password">
+        </div>
+        <input id="btn-submit" type="submit" value="Register">
+    </div>
+</form>
+</body>
+</html>
